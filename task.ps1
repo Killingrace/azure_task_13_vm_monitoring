@@ -1,4 +1,4 @@
-$location = "polandcentral"
+$location = "uksouth"
 $resourceGroupName = "mate-azure-task-13"
 $networkSecurityGroupName = "defaultnsg"
 $virtualNetworkName = "vnet"
@@ -10,7 +10,7 @@ $sshKeyPublicKey = Get-Content "~/.ssh/id_ed25519.pub"
 $publicIpAddressName = "linuxboxpip"
 $vmName = "matebox"
 $vmImage = "Ubuntu2204"
-$vmSize = "Standard_D2s_v3"
+$vmSize = "Standard_B1s"
 $dnsLabel = "matetask" + (Get-Random -Count 1)
 
 Write-Host "Creating a resource group $resourceGroupName ..."
